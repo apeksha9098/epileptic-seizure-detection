@@ -1,6 +1,6 @@
 # 🧠 Epileptic Seizure Detection using Deep Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/epileptic-seizure-detection/blob/main/notebooks/Epileptic_Seizure_Detection_Colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/apeksha9098/epileptic-seizure-detection/blob/main/notebooks/Epileptic_Seizure_Detection_Colab.ipynb)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -83,7 +83,7 @@ The goal written in the abstract (to exceed 99.6 % / 99.54 % accuracy) was **not
 
 **On your own computer** (Python 3.10+):
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/epileptic-seizure-detection.git
+git clone https://github.com/apeksha9098/epileptic-seizure-detection.git
 cd epileptic-seizure-detection
 pip install -r requirements.txt
 python scripts/run_all.py --quick          # 2-minute test that everything works
