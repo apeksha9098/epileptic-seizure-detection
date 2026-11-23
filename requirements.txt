@@ -1,0 +1,7 @@
+# Libraries needed to run the project on your own computer.
+# (Google Colab already has all of them - nothing to install there.)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+tensorflow>=2.15        # includes Keras

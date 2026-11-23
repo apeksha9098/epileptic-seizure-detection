@@ -1,0 +1,41 @@
+Model,original_class,samples,mistakes,accuracy
+Random Forest,1 - Seizure (ictal),460,21,0.9543478260869566
+Random Forest,"2 - Seizure-free, epileptogenic zone",460,21,0.9543478260869566
+Random Forest,"3 - Seizure-free, hippocampal area",460,3,0.9934782608695653
+Random Forest,"4 - Healthy, eyes closed",460,3,0.9934782608695653
+Random Forest,"5 - Healthy, eyes open",460,0,1.0
+k-NN,1 - Seizure (ictal),460,65,0.8586956521739131
+k-NN,"2 - Seizure-free, epileptogenic zone",460,11,0.9760869565217392
+k-NN,"3 - Seizure-free, hippocampal area",460,0,1.0
+k-NN,"4 - Healthy, eyes closed",460,0,1.0
+k-NN,"5 - Healthy, eyes open",460,0,1.0
+Logistic Regression,1 - Seizure (ictal),460,385,0.1630434782608695
+Logistic Regression,"2 - Seizure-free, epileptogenic zone",460,0,1.0
+Logistic Regression,"3 - Seizure-free, hippocampal area",460,0,1.0
+Logistic Regression,"4 - Healthy, eyes closed",460,0,1.0
+Logistic Regression,"5 - Healthy, eyes open",460,0,1.0
+LSTM,1 - Seizure (ictal),460,6,0.9869565217391304
+LSTM,"2 - Seizure-free, epileptogenic zone",460,35,0.9239130434782609
+LSTM,"3 - Seizure-free, hippocampal area",460,3,0.9934782608695653
+LSTM,"4 - Healthy, eyes closed",460,0,1.0
+LSTM,"5 - Healthy, eyes open",460,0,1.0
+CNN,1 - Seizure (ictal),460,22,0.9521739130434783
+CNN,"2 - Seizure-free, epileptogenic zone",460,17,0.9630434782608696
+CNN,"3 - Seizure-free, hippocampal area",460,0,1.0
+CNN,"4 - Healthy, eyes closed",460,0,1.0
+CNN,"5 - Healthy, eyes open",460,0,1.0
+CNN-LSTM,1 - Seizure (ictal),460,19,0.9586956521739131
+CNN-LSTM,"2 - Seizure-free, epileptogenic zone",460,18,0.9608695652173913
+CNN-LSTM,"3 - Seizure-free, hippocampal area",460,2,0.9956521739130435
+CNN-LSTM,"4 - Healthy, eyes closed",460,0,1.0
+CNN-LSTM,"5 - Healthy, eyes open",460,0,1.0
+CNN-LSTM + RF,1 - Seizure (ictal),460,20,0.9565217391304348
+CNN-LSTM + RF,"2 - Seizure-free, epileptogenic zone",460,19,0.9586956521739131
+CNN-LSTM + RF,"3 - Seizure-free, hippocampal area",460,3,0.9934782608695653
+CNN-LSTM + RF,"4 - Healthy, eyes closed",460,0,1.0
+CNN-LSTM + RF,"5 - Healthy, eyes open",460,0,1.0
+Ensemble (all models),1 - Seizure (ictal),460,19,0.9586956521739131
+Ensemble (all models),"2 - Seizure-free, epileptogenic zone",460,13,0.9717391304347827
+Ensemble (all models),"3 - Seizure-free, hippocampal area",460,2,0.9956521739130435
+Ensemble (all models),"4 - Healthy, eyes closed",460,0,1.0
+Ensemble (all models),"5 - Healthy, eyes open",460,0,1.0

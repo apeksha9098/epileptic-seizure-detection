@@ -1,0 +1,108 @@
+{
+ "input_shape": [
+  178,
+  1
+ ],
+ "layers": [
+  {
+   "type": "Conv1D",
+   "id": 0,
+   "stride": 2,
+   "padding": "valid",
+   "activation": "linear"
+  },
+  {
+   "type": "LSTM",
+   "id": 1,
+   "units": 34,
+   "activation": "tanh",
+   "recurrent_activation": "sigmoid",
+   "return_sequences": true
+  },
+  {
+   "type": "BatchNormalization",
+   "id": 2,
+   "epsilon": 0.001
+  },
+  {
+   "type": "Activation",
+   "id": 3,
+   "activation": "relu"
+  },
+  {
+   "type": "MaxPooling1D",
+   "id": 4,
+   "pool": 2,
+   "stride": 2
+  },
+  {
+   "type": "Conv1D",
+   "id": 6,
+   "stride": 2,
+   "padding": "valid",
+   "activation": "linear"
+  },
+  {
+   "type": "LSTM",
+   "id": 7,
+   "units": 34,
+   "activation": "tanh",
+   "recurrent_activation": "sigmoid",
+   "return_sequences": true
+  },
+  {
+   "type": "BatchNormalization",
+   "id": 8,
+   "epsilon": 0.001
+  },
+  {
+   "type": "Activation",
+   "id": 9,
+   "activation": "relu"
+  },
+  {
+   "type": "MaxPooling1D",
+   "id": 10,
+   "pool": 2,
+   "stride": 2
+  },
+  {
+   "type": "LSTM",
+   "id": 12,
+   "units": 64,
+   "activation": "tanh",
+   "recurrent_activation": "sigmoid",
+   "return_sequences": true
+  },
+  {
+   "type": "LSTM",
+   "id": 14,
+   "units": 64,
+   "activation": "relu",
+   "recurrent_activation": "sigmoid",
+   "return_sequences": true
+  },
+  {
+   "type": "LSTM",
+   "id": 16,
+   "units": 64,
+   "activation": "tanh",
+   "recurrent_activation": "sigmoid",
+   "return_sequences": false
+  },
+  {
+   "type": "Flatten",
+   "id": 18
+  },
+  {
+   "type": "Dense",
+   "id": 19,
+   "activation": "linear"
+  },
+  {
+   "type": "Dense",
+   "id": 21,
+   "activation": "softmax"
+  }
+ ]
+}

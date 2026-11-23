@@ -1,0 +1,20 @@
+{
+  "split": "random",
+  "seed": 42,
+  "rows": {
+    "train": 8050,
+    "val": 1150,
+    "test": 2300
+  },
+  "seizure_rows": {
+    "train": 1610,
+    "val": 230,
+    "test": 460
+  },
+  "recordings": {
+    "train": 500,
+    "val": 464,
+    "test": 498
+  },
+  "recordings_shared_between_train_and_test": 498
+}
